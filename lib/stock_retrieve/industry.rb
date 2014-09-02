@@ -1,5 +1,5 @@
+require_relative 'basic_info'
 module StockRetrieve
-	class Industry
-		extend StockRetrieve::BasicInfo
+	class Industry < StockRetrieve::BasicInfo
 	end
 end

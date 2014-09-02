@@ -1,7 +1,7 @@
 require 'csv'
 require 'open-uri'
 require "stock_retrieve/industry"
-
+require "stock_retrieve/company"
 
 module StockRetrieve
 	class Client
@@ -12,6 +12,15 @@ module StockRetrieve
 			if rows = result.shift
 				rows.map do |row|
 					StockRetrieve::Industry.new(row)
+				end
+			end
+		end
+
+		def companies(id, sort_property = 'coname', sort_direction = 'u')
+			result = request_info(id, sort_property, sort_direction)
+			if rows = result.shift
+				rows.map do |row|
+					StockRetrieve::Company.new(row)
 				end
 			end
 		end
