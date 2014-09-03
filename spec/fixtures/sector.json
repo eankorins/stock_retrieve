@@ -1,0 +1,73 @@
+{
+  "name": "Basic Materials",
+  "industry": [
+   {
+    "id": "112",
+    "name": "Agricultural Chemicals"
+   },
+   {
+    "id": "132",
+    "name": "Aluminum"
+   },
+   {
+    "id": "110",
+    "name": "Chemicals - Major Diversified"
+   },
+   {
+    "id": "131",
+    "name": "Copper"
+   },
+   {
+    "id": "134",
+    "name": "Gold"
+   },
+   {
+    "id": "121",
+    "name": "Independent Oil & Gas"
+   },
+   {
+    "id": "133",
+    "name": "Industrial Metals & Minerals"
+   },
+   {
+    "id": "120",
+    "name": "Major Integrated Oil & Gas"
+   },
+   {
+    "id": "136",
+    "name": "Nonmetallic Mineral Mining"
+   },
+   {
+    "id": "123",
+    "name": "Oil & Gas Drilling & Exploration"
+   },
+   {
+    "id": "124",
+    "name": "Oil & Gas Equipment & Services"
+   },
+   {
+    "id": "125",
+    "name": "Oil & Gas Pipelines"
+   },
+   {
+    "id": "122",
+    "name": "Oil & Gas Refining & Marketing"
+   },
+   {
+    "id": "135",
+    "name": "Silver"
+   },
+   {
+    "id": "113",
+    "name": "Specialty Chemicals"
+   },
+   {
+    "id": "130",
+    "name": "Steel & Iron"
+   },
+   {
+    "id": "111",
+    "name": "Synthetics"
+   }
+  ]
+}

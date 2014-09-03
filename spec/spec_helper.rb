@@ -3,7 +3,7 @@ require 'rubygems'
 require 'rspec'
 require 'rspec/its'
 require 'capybara'
-require 'csv'
+require 'JSON'
 
 RSpec.configure do |config|
 
@@ -12,5 +12,5 @@ RSpec.configure do |config|
   	config.include Capybara::DSL
 end
 def fixture(name)
-    CSV.read(File.expand_path("../fixtures/#{name}.csv", __FILE__))
+    JSON.parse(File.read(File.expand_path("../fixtures/#{name}.json", __FILE__)))
 end
