@@ -11,7 +11,7 @@ describe "Client" do
 	end
 
 	describe "Stocks" do
-		subject { StockRetrieve.quote('AAPL')}
-		it { should be_kind_of(StockRetrieve::BasicQuote))}
+		subject { StockRetrieve.quote('AAPL').first}
+		it { should be_kind_of(StockRetrieve::BasicQuote) }
 	end
 end
